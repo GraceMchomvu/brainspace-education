@@ -21,9 +21,11 @@ const WelcomePage = () => {
         {/* Header */}
         <div className="text-center mb-12">
           <div className="flex items-center justify-center mb-6">
-            <div className="h-20 w-20 rounded-full bg-primary-600 flex items-center justify-center">
-              <BookOpen className="text-white" size={40} />
-            </div>
+            <img 
+              src="/BRAINSPACE LOGO WITH MOTO.jpg" 
+              alt="BrainSpace Logo" 
+              className="h-32 w-32 object-contain"
+            />
           </div>
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4">
             Welcome to <span className="text-primary-600">BrainSpace</span>

@@ -13,15 +13,15 @@ const Navbar = () => {
     <nav className="bg-white shadow-lg sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo */}
-          <Link to="/" className="flex items-center space-x-3">
-            <img 
-              src="/BRAINSPACE LOGO WITH MOTO.jpg" 
-              alt="BrainSpace Logo" 
-              className="h-10 w-10 rounded-full object-cover"
-            />
-            <span className="text-xl font-bold text-primary-600">BrainSpace</span>
-          </Link>
+                        {/* Logo */}
+              <Link to="/home" className="flex items-center space-x-3">
+                <img 
+                  src="/BRAINSPACE LOGO WITH MOTO.jpg" 
+                  alt="BrainSpace Logo" 
+                  className="h-14 w-14 object-contain"
+                />
+                <span className="text-xl font-bold text-primary-600">BrainSpace</span>
+              </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
