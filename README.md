@@ -1,15 +1,18 @@
 # BrainSpace - Educational Content Hub
 
-A modern, responsive educational platform providing comprehensive resources for NECTA and Cambridge curricula from Years 10-13.
+A modern, responsive educational platform providing comprehensive resources for NECTA and Cambridge curricula from Years 10-13, powered by AI assistance.
 
 ## Features
 
+- 🤖 **AI-Powered Assistant**: Smart chatbot to help with navigation and study tips
+- 💎 **Free & Premium Versions**: Choose your access level
 - 📚 **Two Curriculums**: NECTA and Cambridge support
 - 🎓 **Years 10-13**: Comprehensive coverage for Form 3 to Form 6 / IGCSE to A-Level
 - 📖 **8 Subjects**: Swahili, Geography, Computer Science, ICT, Physics, Chemistry, Accounting, Business
-- 🎥 **Video Lessons**: Engaging video content
+- 🎥 **Video Lessons**: Engaging video content (Premium)
 - 📝 **Study Notes**: Well-structured revision materials
-- 📄 **Past Papers**: Previous examination papers
+- 📄 **Past Papers**: Previous examination papers (Premium)
+- 🔍 **Smart Search**: AI-powered subject search
 - 🎨 **Modern UI**: Beautiful and responsive design
 - 📱 **Mobile Friendly**: Works perfectly on all devices
 
@@ -77,6 +80,8 @@ npm run dev
 - **Tailwind CSS** - Styling
 - **Vite** - Build tool
 - **Lucide React** - Icons
+- **AI Assistant** - Smart study support
+- **LocalStorage** - User preferences
 
 ## Curriculum Coverage
 
